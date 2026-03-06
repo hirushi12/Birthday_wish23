@@ -4,7 +4,7 @@ const countdownEl=document.getElementById("countdown");
 // Get Name
 document.addEventListener("DOMContentLoaded",()=>{
     const params=new URLSearchParams(window.location.search);
-    birthdayName=params.get("name") || "Royal Star";
+    birthdayName=params.get("name") || "Buddhi Akka";
 
     startCountdown();
     initFireworks();
@@ -146,4 +146,5 @@ function createConfetti(){
         setTimeout(()=>conf.remove(),6000);
 
     },150);
+
 }
